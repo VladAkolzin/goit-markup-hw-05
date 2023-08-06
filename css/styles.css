@@ -783,8 +783,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 	min-width: 169px;
 	min-height: 56px;
 	display: block;
-	justify-content: center;
-	align-items: center;
+	margin: 0 auto;
 	border: none;
 	border-radius: 4px;
 	color: var(--back-color);
