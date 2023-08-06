@@ -742,15 +742,13 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 	line-height: 1.17;
 	letter-spacing: 0.04em;
 	color: var(--light-color);
-	display: flex;
-	align-items: center;
 }
 .policy-link {
 	color: var(--logo-color);
 	line-height: 1.33;
 	letter-spacing: 0.04em;
 }
-.user-privacy-icon {
+.privacy-field {
 	width: 16px;
 	height: 16px;
 	display: inline-flex;
@@ -764,7 +762,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 	fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	border-radius: 2px;
 }
-.policy-check:checked .user-privacy-icon {
+.policy-check:checked + .policy-text > .privacy-field{
 	background-color: var(--ocean-color);
 	border: none;
 	fill: var(--white-color);
